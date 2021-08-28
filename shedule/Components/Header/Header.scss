@@ -1,0 +1,39 @@
+@import "./../../App(Light)";
+
+.topShedule{
+  min-height: 9%;
+  max-height: 9%;
+  flex: .1;
+  flex-direction: row;
+  background-color: transparent;
+  width: 100%;
+  align-items: center;
+  padding:  0 15px;
+  justify-content: space-between;
+}
+
+.topSheduleLeftImage{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: $textColor;
+  overflow: hidden;
+}
+
+.topSheduleHeaderText{
+  padding-left: 10px;
+  font-size: 28px;
+  color: $textColor;
+}
+
+.topSheduleFirstContainer{
+  flex-direction: row;
+}
+
+.topSheduleRightImage{
+  height: 40px;
+  width: 40px;
+  tint-color: $chooseColor;
+
+}

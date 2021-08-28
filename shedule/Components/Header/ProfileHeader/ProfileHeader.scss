@@ -1,0 +1,37 @@
+@import "./../../../App(Light)";
+
+.profileHeader{
+  min-height: 9%;
+  max-height: 9%;
+  flex: .1;
+  flex-direction: row;
+  background-color: transparent;
+  width: 100%;
+  align-items: center;
+  padding:  0 15px;
+  justify-content: space-between;
+
+}
+
+.profileHeaderFirstContainer {
+  flex-direction: row;
+}
+
+.profileHeader_Image{
+
+  height: 40px;
+  width: 40px;
+  tint-color: $textColor;
+}
+
+.profileHeader_RightImage{
+  height: 30px;
+  width: 30px;
+  tint-color: $textColor;
+}
+
+.profileHeader_Text{
+  padding-left: 10px;
+  font-size: 28px;
+  color: $textColor;
+}

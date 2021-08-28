@@ -1,0 +1,90 @@
+@import "../../App(Light)";
+
+.pareBack{
+  flex-direction: row;
+}
+
+.pareLeftContainer{
+  flex: .32;
+  flex-direction: row;
+}
+
+//Линия и кружок
+.pareLine{
+  flex: .5;
+  margin-left: 9px;
+  margin-right: 10px;
+  border: 1px solid $textColor;
+  opacity: .25;
+  width: 1px;
+}
+
+.pareCircleContainer{
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background-color: $chooseColor;
+  border-radius: 50px;
+  elevation: 3px;
+}
+
+.pareCircle{
+  width: 60%;
+  height: 60%;
+  border-radius: 50px;
+}
+
+.pareCircleInactive{
+  width: 100%;
+  height: 100%;
+  background-color: $secondaryColor;
+  border: 2px solid rgb(154, 157, 161);
+  border-radius: 50px;
+}
+
+.pareCircleImage{
+  tint-color: $primaryColor;
+  width: 100%;
+  height: 100%;
+}
+
+
+//Время пары
+.pareTimeContainer{
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.pareTimePare{
+  color: $textColor;
+  font-size: 18px;
+}
+
+.pareTimer{
+  color: $textColor;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+//Описание пары
+.pareContainer{
+  flex: .65;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  elevation: 3px;
+}
+.pareNameText{
+  color: $secondaryColor;
+  font-size: 18px;
+}
+
+.pareSmallText{
+  color: $secondaryColor;
+  font-size: 12px;
+}

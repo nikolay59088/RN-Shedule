@@ -1,0 +1,26 @@
+@import "./../../../App(Light)";
+
+.backHeader{
+  min-height: 9%;
+  max-height: 9%;
+  flex: .1;
+  flex-direction: row;
+  background-color: transparent;
+  width: 100%;
+  align-items: center;
+  padding:  0 15px;
+  justify-content: flex-start;
+}
+
+.backHeader_Image{
+
+  height: 40px;
+  width: 40px;
+  tint-color: $textColor;
+}
+
+.backHeader_Text{
+  padding-left: 10px;
+  font-size: 28px;
+  color: $textColor;
+}

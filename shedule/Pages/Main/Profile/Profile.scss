@@ -1,0 +1,32 @@
+
+.profile{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.profile_scroll{
+  align-items: center;
+}
+
+.profileImage_Container{
+  width: 150px;
+  margin-top: 15px;
+  border-radius: 100px;
+  elevation: 2px;
+}
+
+.profileImage{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.profileFIO{
+  margin-top: 15px;
+  font-size: 28px;
+}
+
+.profileSave{
+  margin-top: 15px;
+}

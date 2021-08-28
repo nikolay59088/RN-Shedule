@@ -1,0 +1,23 @@
+.WelcomeButton{
+  border-radius: 8px;
+  background-color: white;
+  width: 150px;
+  elevation: 4px;
+}
+
+.WelcomeButtonEnabled{
+  border-bottom: 5px solid #1D8FD6;
+}
+
+.WelcomeButton_Text{
+  font-size: 18px;
+  color: #787C7D;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.WelcomeButton_TextEnabled{
+  color: #1D8FD6;
+  font-weight: bold;
+}
+

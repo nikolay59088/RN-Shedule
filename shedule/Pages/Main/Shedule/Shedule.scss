@@ -1,0 +1,30 @@
+@import "./../../../App(Light)";
+
+.backShedule{
+  flex: 1;
+  flex-direction: column;
+  background-color: $secondaryColor;
+}
+
+.sheduleDayOfWeek{
+  margin-top: 20px;
+  margin-left: 7%;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.sheduleMonth{
+  font-size: 18px;
+}
+
+.sheduleFullYear{
+  font-size: 16px;
+  padding-left: 10px;
+  color: $textColor;
+}
+
+.shedule{
+  margin-left: 7%;
+  margin-top: 5px;
+}
+

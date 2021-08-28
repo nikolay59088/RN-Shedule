@@ -1,0 +1,70 @@
+@import "./../../App(Light)";
+
+
+.calendarContainer{
+  flex: .09;
+
+  min-height: 9%;
+  max-height: 9%;
+}
+
+.calendarBack{
+  background-color: $darkSecondaryColor;
+  height: 85%;
+  width: 100%;
+  elevation: 3px;
+  flex-direction: row;
+  z-index: 0;
+}
+
+.calendarMonthContainer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  z-index: 1;
+  padding-right: 10px;
+  elevation: 3px;
+}
+
+
+.calendarMonth{
+  height: 85%;
+  flex: .17;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.calendarMonthText{
+  color: $textColor;
+  font-size: 16px;
+}
+
+.calendarMonthBigText{
+  font-size: 18px;
+}
+
+.calendarDaysContainer{
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.calendarTextInactive{
+  color: $textColor;
+  font-size: 14px;
+}
+
+.calendarMonthArrowContainer{
+  align-items: center;
+  justify-content: center;
+  flex: .5;
+  height: 85%;
+}
+
+.calendarMonthArrow{
+  height: 60%;
+  width: 90%;
+  tint-color: $textColor;
+}

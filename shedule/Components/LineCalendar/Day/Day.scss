@@ -1,0 +1,25 @@
+@import "./../../../App(Light)";
+
+.dayBack{
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 85%;
+}
+
+.dayBackEnabled{
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: $chooseColor;
+  border-radius: 0 0 10px 10px;
+  elevation: 3px;
+}
+
+.dayText{
+  color: $textColor;
+}
+
+.dayTextEnabled{
+  color: $secondaryColor;
+}
